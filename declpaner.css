@@ -1,0 +1,160 @@
+.main-menu{
+    display: inline-block ;
+   
+}
+#logo1{
+    position:relative; 
+    left: 200px;
+}
+/*
+#department{
+    position: relative;
+    left: 680px;
+    color: rgb(176, 172, 163);
+}
+#career{
+    position: relative;
+    left: 650px;
+    color: rgb(176, 172, 163);
+}
+*/
+#about{
+   /* position: relative;
+    left: 640px;*/
+    color:#00b39b;
+}
+
+.main-header{
+    position: sticky;
+  top: 0;
+    background-color: white;
+    width:100%;
+    z-index: 100;
+    display:flex ;
+    justify-content: space-around;
+    
+}
+.lead__logo{
+position: relative;
+left: 650px;
+}
+#mk{
+    text-align: center;
+    color:#00b39b;
+}
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    
+}
+.col-2{
+    position: relative;
+    left: 470px;
+   width: 400px;
+   color:#747474;
+   background-color: white;
+}
+.col-1{
+    position: relative;
+    left: 240px;
+    width: 400px;
+    color:#747474;
+}
+.gridfade-elements{display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+   position: relative;
+   left: 40px;
+
+
+}
+#for1{
+    background-color:#00b39b ;
+    height: 300px;
+border-radius: 6%;
+}
+#fdf{color:white;
+    font-size:1,5em;}
+   
+#fd{
+    color: white;
+}
+
+#for2{background-color: blue;
+    height: 300px;
+    margin-left: 40px;
+    border-radius: 6%;
+}
+   #fd2{
+    color: white;
+   }
+   #for3{
+    height: 300px;
+    margin-left: 40px;
+    border-radius: 6%;
+    background-color:#747474 ;
+   }
+   #fd3{color: white;
+   }
+   #ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+.col-2stats__header{
+    position: relative;
+    left: 200px;
+}
+#if{position: relative;
+    left: 300px;
+}
+.services_section__inner{
+width: 1050px;
+}
+.stats{margin:0;
+    max-width:1050px;  
+ }
+#hf{
+    align-content: center;
+}
+#ph{
+    text-align: center;
+}
+#oh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#os{
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
+}
+.office{
+    background-color: white;
+    border-radius: 6%;
+}
+.btnbtn--small{background-color: blue;
+
+}
+#ju{display: flex;
+flex-direction: column;
+align-items: center;}
+#si{
+    font-size: 2.1em;
+    color: #333;
+}
+#a{background-color: blue;
+color: white;}
+.pf{
+    font-size: 12px;
+}
